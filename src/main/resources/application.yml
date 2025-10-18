@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: hacked-backend
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    zipkin:
+      base-url: http://localhost:9411
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  tracing:
+    sampling:
+      probability: 1.0
+
+logging:
+  level:
+    com.hacked: DEBUG
+    org.springframework.web: DEBUG
