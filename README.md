@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hacked Backend
 
 일반 버튼 클릭 시 닉네임별 시도횟수를 추적하고 콘솔에 출력하는 스프링부트 서버입니다.
@@ -133,3 +134,7 @@ management:
 - **hack-library**: 프론트엔드 라이브러리 (모든 버튼 컴포넌트)
 - **hacked-system**: 데모 웹 애플리케이션
 - **hack-backend**: 보라색 버튼 확률 당첨 처리 서버
+=======
+# hacked-backend
+123
+>>>>>>> b83567731414561ea83fc76d65a572e67eb2d62b
