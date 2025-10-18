@@ -14,6 +14,11 @@ npm install
 npm start
 ```
 
+For development with auto-restart:
+```bash
+npm run dev
+```
+
 The server will run on port 3000 by default.
 
 ## API Endpoints
