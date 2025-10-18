@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hacked Backend
 
 일반 버튼 클릭 시 닉네임별 시도횟수를 추적하고 콘솔에 출력하는 스프링부트 서버입니다.
@@ -13,9 +12,11 @@
 ## API 엔드포인트
 
 ### POST /api/button-click
+
 일반 버튼 클릭 시 호출되는 엔드포인트
 
 **요청:**
+
 ```json
 {
   "buttonType": "red",
@@ -24,11 +25,13 @@
 ```
 
 **응답:**
+
 ```
 일반 버튼 클릭 이벤트가 성공적으로 처리되었습니다.
 ```
 
 **콘솔 출력:**
+
 ```
 === 일반 버튼 클릭 이벤트 (hacked-backend) ===
 버튼 타입: red
@@ -42,9 +45,11 @@
 ```
 
 ### GET /api/health
+
 서버 상태 확인
 
 **응답:**
+
 ```
 hacked-backend 서버가 정상적으로 실행 중입니다.
 ```
@@ -106,6 +111,7 @@ src/main/resources/
 ## 설정
 
 ### application.yml
+
 ```yaml
 server:
   port: 8082
@@ -134,7 +140,3 @@ management:
 - **hack-library**: 프론트엔드 라이브러리 (모든 버튼 컴포넌트)
 - **hacked-system**: 데모 웹 애플리케이션
 - **hack-backend**: 보라색 버튼 확률 당첨 처리 서버
-=======
-# hacked-backend
-123
->>>>>>> b83567731414561ea83fc76d65a572e67eb2d62b
